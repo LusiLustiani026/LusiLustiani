@@ -36,7 +36,7 @@
 		<td>{{ $dt->email }}</td>
 		<td>{{ $dt->akses }}</td>
 		<td>
-			<a href="#" class="btn btn-succes btn-sm">
+			<a href="#" class="btn btn-success btn-sm">
 				<i class="fa fa-w fa-edit"></i>
 			</a>
 			
