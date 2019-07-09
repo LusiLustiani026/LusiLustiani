@@ -36,7 +36,7 @@ class UserController extends Controller
         $result->akses = $req->akses;
 
         if($result->save()){
-            return redirect()->route('admin.user')->with('result','succes');
+            return redirect()->route('admin.user')->with('result','success');
         } else {
             return back()->with('result','fail')->withInput();
         }
