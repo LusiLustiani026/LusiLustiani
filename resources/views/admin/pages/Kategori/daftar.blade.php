@@ -130,6 +130,8 @@
 		$('.btn-delete').click(function(){
 			$('#form-delete').submit();
 		});
+
+		
 	});
 </script>
 @endpush
